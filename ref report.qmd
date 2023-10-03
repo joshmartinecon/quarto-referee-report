@@ -1,0 +1,89 @@
+---
+title: "Refreee Report for Journal Name"
+author: ""
+date: ""
+format: 
+  pdf:
+      toc: false
+      shift-heading-level-by: 2
+      fig-pos: "H"
+      fig-cap-location: top
+      geometry:
+        - top=1in
+        - right=.8in
+        - bottom=1in
+        - left=.8in
+      link-citations: true
+      linkcolor: blue
+      include-in-header: 
+        text: |
+          \usepackage{fancyhdr}
+          \usepackage{titling}
+          \pagestyle{fancy}
+          \fancyhf{}
+          \renewcommand\maketitle{
+            \fancyhead[C]{
+              \thetitle
+              \ifx \theauthor\empty  \else \ – \theauthor \fi
+              \ifx \thedate\empty  \else \ – \thedate \ \fi
+            }
+          }
+          \fancyfoot[C]{\thepage}
+          
+          % Josh adds below packages
+          \usepackage{enumitem} % for numbering
+          \usepackage[dvipsnames]{xcolor} % for 'CornflowerBlue'
+          \newcommand\cbox[1]{\colorbox{CornflowerBlue}{$#1$}}
+          \usepackage [autostyle, english = american]{csquotes} % for fixing quotes
+          \MakeOuterQuote{"}
+---
+
+\begin{center}
+  \LARGE
+  \textbf{Title of the Paper}
+\end{center}
+
+# Brief Note to the Author(s)
+
+I view this report as being much more of a beginning of a conversation between us and the editor rather than me listing a series of hoops that you must jump through for publication. I welcome scholarly disagreement to any of the comments that I have left about your paper below. For the purposes of grammatical simplicity, I will assume that there is one author.
+
+# Summary
+
+The paper asks both an interesting and very timely question that could appeal to a broad audience of...
+
+# Primary Concerns
+
+\begin{enumerate}
+  \item Here is one primary concern.
+  \begin{enumerate}[label=\alph*.]
+    \item Here is a sub-point to this primary concern.
+    \begin{itemize}
+      \item Example 1: Here is a brief commentary about this concern. "\textit{Here is sample text from the paper that represents my concern.}"
+    \end{itemize}
+  \end{enumerate}
+  \item Here is a second sub-point to this primary concern.
+\end{enumerate}
+    
+# Secondary Concerns
+
+\begin{enumerate}
+  \setcounter{enumi}{2}
+  \item Inserting pictures is easy too!
+  
+  \begin{figure}[H]
+    \centering
+  \includegraphics[width=4in]{econjail.jpg}
+  \end{figure}
+  
+  \item Writing equations is the same as if you were doing it in LaTex.
+  
+  \begin{equation}
+    y_{it} = \cbox{\alpha_i} + \delta_t + \beta_1 X_{it} + \epsilon_{it}
+    \tag{Equation 4}
+  \end{equation}
+  
+  \begin{itemize}
+    \item Above I have highlighted a unit fixed effect.
+  \end{itemize}
+  
+\end{enumerate}

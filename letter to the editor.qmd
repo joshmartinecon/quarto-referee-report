@@ -1,0 +1,54 @@
+---
+title: "Letter to the Editor"
+author: "Your Name"
+date: ""
+format: 
+  pdf:
+      toc: false
+      shift-heading-level-by: 2
+      fig-pos: "H"
+      fig-cap-location: top
+      geometry:
+        - top=1in
+        - right=.8in
+        - bottom=1in
+        - left=.8in
+      link-citations: true
+      linkcolor: blue
+      include-in-header: 
+        text: |
+          \usepackage{fancyhdr}
+          \usepackage{titling}
+          \pagestyle{fancy}
+          \fancyhf{}
+          \renewcommand\maketitle{
+            \fancyhead[C]{
+              \thetitle
+              \ifx \theauthor\empty  \else \ – \theauthor \fi
+              \ifx \thedate\empty  \else \ – \thedate \ \fi
+            }
+          }
+          \fancyfoot[C]{\thepage}
+          \usepackage{enumitem}
+---
+  
+\begin{center}
+  \LARGE
+  \textbf{Title of the Paper}
+\end{center}
+
+# Summary
+
+This paper examines...
+
+# Strengths
+
+The paper asks both an interesting and very timely question that could appeal to a broad audience of...
+
+# Weaknesses
+
+This paper...
+
+# Recomendation
+
+I think this paper could... The subject matter seems like a very bad/good fit for this journal... I believe your decision about whether to reject or accept the paper ultimately will rest upon the author's ability to... Thus, I would recommend...
