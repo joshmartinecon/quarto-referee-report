@@ -1,21 +1,15 @@
----
-title: "Referee Reports in Quarto"
-author: '[Joshua C. Martin](https://github.com/joshmartinecon)'
-format: html
----
-  
 # Referee Report Template
 
 A [Quarto](https://quarto.org/) format for compiling PDF documents to the author(s) and editor. Most of the code is borrowed from Andrés Cruz's [quarto-compact](https://github.com/arcruz0/quarto-compact/blob/main/template.qmd) template.
 
-# Referee Report Example
+## Referee Report Example
 
-![](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter-to-the-editor.pdf){width=100% height=400}
+![](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter-to-the-editor.pdf)
 
 [Source Code](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter%20to%20the%20editor.qmd)
 
-# Letter to the Editor Example
+## Letter to the Editor Example
 
-![](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter-to-the-editor.pdf){width=100% height=400}
+![](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter-to-the-editor.pdf)
 
 [Source Code](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter%20to%20the%20editor.qmd)
