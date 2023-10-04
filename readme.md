@@ -4,12 +4,12 @@ A [Quarto](https://quarto.org/) format for compiling PDF documents to the author
 
 ## Referee Report Example
 
-[embed]https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter-to-the-editor.pdf[embed]
+<a href="ref-report.pdf"><img src="thumbnail 2.png" width=50% height=50%></a>
 
 [Source Code](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter%20to%20the%20editor.qmd)
 
 ## Letter to the Editor Example
 
-[embed]https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter-to-the-editor.pdf[embed]
+<a href="letter-to-the-editor.pdf"><img src="thumbnail 1.png" width=50% height=50%></a>
 
 [Source Code](https://github.com/joshmartinecon/quarto-referee-report/blob/main/letter%20to%20the%20editor.qmd)
